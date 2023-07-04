@@ -5,48 +5,17 @@
     margin-top: 40px;
 }
 
-.good,
-.neutral,
-.bad {
+.button {
     padding: 8px;
     border-radius: 20px;
     transition: transform 0.3s;
     width: 80px;
+    border: 2px solid blue;
 }
 
-.good:hover,
-.good:focus,
-.neutral:hover,
-.neutral:focus,
-.bad:hover,
-.bad:focus {
+.button:hover,
+.button:focus {
     cursor: pointer;
     transform: scale(1.2);
-}
-
-.good {
-    border: 2px solid green;
-}
-
-.good:hover, 
-.good:focus {
-    background-color: green;
-}
-
-.neutral {
-    border: 2px solid yellow;
-}
-
-.neutral:hover, 
-.neutral:focus {
-    background-color: yellow;
-}
-
-.bad {
-    border: 2px solid red;
-}
-
-.bad:hover, 
-.bad:focus {
-    background-color: red;
+    background-color: blue;
 }
