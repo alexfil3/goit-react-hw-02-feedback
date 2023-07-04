@@ -26,16 +26,7 @@ export class App extends Component {
 
   render() {
     return (
-      <
-        // style={{
-        //   display: 'flex',
-        //   justifyContent: 'center',
-        //   flexDirection: 'column',
-        //   alignItems: 'center',
-        //   fontSize: 30,
-        //   color: '#010101',
-        // }}
-      >
+      <>
         <Section title="Please leave feedback">
           <FeedbackOptions
             onLeaveFeedback={this.handleFeedback}
