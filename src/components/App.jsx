@@ -26,15 +26,15 @@ export class App extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          alignItems: 'center',
-          fontSize: 30,
-          color: '#010101',
-        }}
+      <
+        // style={{
+        //   display: 'flex',
+        //   justifyContent: 'center',
+        //   flexDirection: 'column',
+        //   alignItems: 'center',
+        //   fontSize: 30,
+        //   color: '#010101',
+        // }}
       >
         <Section title="Please leave feedback">
           <FeedbackOptions
@@ -55,7 +55,7 @@ export class App extends Component {
             <Notification message="There is no feedback"></Notification>
           )}
         </Section>
-      </div>
+      </>
     );
   }
 }
